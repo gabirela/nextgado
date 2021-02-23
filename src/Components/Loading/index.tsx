@@ -1,7 +1,7 @@
 import Lottie from "react-lottie";
-import loadingLottie from "../../lotties/work-from-home.json";
+//import loadingLottie from "../../lotties/work-from-home.json";
 
-const defaultOptions = {
+/*const defaultOptions = {
     loop: true,
     autoplay: true,
     animationData: loadingLottie,
@@ -14,4 +14,4 @@ const defaultOptions = {
     return <Lottie options={defaultOptions} height={400} width={400} />;
   };
   
-  export default Loading;
+  export default Loading;*/
