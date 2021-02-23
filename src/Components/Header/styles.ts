@@ -18,3 +18,18 @@ export const ColoredLine = styled.div`
     display: block;
     margin-block-end: 1.5px;
 `
+export const Menu = styled.div`
+    /*width:90%;
+    max-width: 1000px;
+    padding: 0;
+    list-style: none;
+    margin-right: 2%;
+    margin-left: 2%;
+    align-items: flex-end;
+    text-decoration: none;
+    position: relative;*/
+    list-style: none;
+    
+
+`
+
