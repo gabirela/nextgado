@@ -1,12 +1,8 @@
 import { useEffect, useState } from "react";
-import { Header, Loading } from "../Components";
+import { Header } from "../Components";
 
 export default function Home() {
-  const [isLoading, setIsLoading] = useState(true);
-  useEffect(() => {
-    setTimeout(() => {
-      setIsLoading(false);
-    }, 500);
-  }, []);
-  return <>{isLoading ? <Loading /> : <Header />}</>;
+  
+  return ( <Header />
+  );
 }
